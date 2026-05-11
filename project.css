@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gg{
+    font-size: 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.gg2{
+    width: 24px;
+    height: 24px;
+}
+p {
+    width: 10px;
+    font-size: 10px;
+    padding-top: 15px;
+    font-weight: 100px;
+}
+
+
+
+.h2 {
+flex-direction: row-reverse;
+}
+
+.foot {
+background-color: #fef0d8;
+}
+
+.tr {
+background-color: #ffe27c;
+border-radius: 10px;
+}
+
+
+.left-grid {
+  background-color: #201547;
+  height: 670px;
+  border-radius: 10px;
+} 
+
+.promo-btn{
+    border-radius: 50px;
+    border-top: 1px solid white;
+    background-color: #4d446c;
+    width: fit-content;
+}
+
+.cog-t{
+    border-radius: 50px;
+    background-color: #5938b7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 30px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-attachment: rgba(225, 255, 225, 0.4);
+    transition: background-color 0.2 ease;
+}
+
+.carousel-indicators .active{
+    background-attachment: #c4b1f9;
+    transform: scale(1.5);
+}
+
+.carousel-fade .carousel-item{
+    transition: opacity 0.8s ease-in-out;
+}
+
+.scroll2 {
+    display: flex;
+    width: 2400px;
+    animation: scroll 16s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.scroll {
+    display: flex;
+    width: 1400px;
+    animation: scroll 13s linear infinite;
+}
+
+
+
+
+.scroll img {
+    width: 50px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+}
+
+.scroll2 img {
+    width: 100px;
+    margin-left: 30px;
+
+}
+
+.cour {
+    background-color: white;
+    position: relative;
+
+}
+
+.cour::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+    z-index: 2;
+    pointer-events: none;
+}
+
+.cour::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to left, white, rgba(255, 255, 255, 0));
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+.speed-nav .nav-link {
+    border: none !important;
+    background: transparent !important;
+    transition: all 0.3s ease !important;
+    border-radius: 8px !important;
+    padding: 0 12px 0 0 !important; 
+    color: #6c757d !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    text-decoration: none !important;
+    height: 36px !important; 
+}
+
+.speed-nav .nav-link:hover {
+    background-color: #f8f9fa !important;
+}
+
+.speed-nav .nav-link.active {
+    color: #000 !important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,0.075) !important;
+}
+
+.speed-nav .nav-link .icon-box {
+    width: 28px;
+    height: 28px;
+    margin: 4px; 
+    border-radius: 6px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+speed-nav .nav-link:hover {
+    background-color: #f8f9fa !important;
+}
+
+
+.speed-nav .nav-link.active {
+    color: #000 !important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,0.075) !important;
+}
+
+.speed-nav .nav-link .icon-box {
+    width: 28px;
+    height: 28px;
+    margin: 4px; 
+    border-radius: 6px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+}
+
+#pills-payroll-tab.active { background-color: #dcf0ff !important; }
+#pills-payroll-tab.active .icon-box { background-color: #bee1ff !important; }
+
+
+#pills-hr-tab.active { background-color: #f5f0d8 !important; }
+#pills-hr-tab.active .icon-box { background-color: #ebdca8 !important; }
+
+#pills-it-tab.active { background-color: #f3f0ff !important; }
+#pills-it-tab.active .icon-box { background-color: #e0d4ff !important; }
+
+
+#pills-hire-tab.active { background-color: #fdf1d6 !important; }
+#pills-hire-tab.active .icon-box { background-color: #fbd68b !important; }
+
+.speed-content-card {
+    min-height: 120px;
+    width: 280px;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* One Modern Experience Section */
+.feature-card-dark {
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease;
+    cursor: default;
+}
+
+.feature-card-dark:hover {
+    background-color: #2b2b2b;
+}
+
+
+
+.modern-img-cont {
+    
+    overflow: hidden;
+   
+    min-height: 500px;
+    position: relative;
+}
+
+.modern-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    border-radius: 2.5rem;
+}
+
+
+.modern-img-1 {
+    opacity: 1;
+}
+
+
+.modern-section:has(.modern-card-2:hover) .modern-img-1 { opacity: 0; }
+.modern-section:has(.modern-card-2:hover) .modern-img-2 { opacity: 1; }
+
+.modern-section:has(.modern-card-3:hover) .modern-img-1 { opacity: 0; }
+.modern-section:has(.modern-card-3:hover) .modern-img-3 { opacity: 1; }
+
+.modern-section:has(.modern-card-2:hover) .modern-card-2 {
+    background-color: #2b2b2b ;
+}
+.modern-section:has(.modern-card-3:hover) .modern-card-3 {
+    background-color: #2b2b2b ;
+    
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+.accordion-button::after {
+    filter: invert(1);
+}
+
+
+.deel-feature-card {
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.deel-feature-card:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.deel-feature-arrow {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 16px;
+    color: #000;
+}
+
+.deel-feature-card:hover .deel-feature-arrow {
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+
+@media (max-width: 767.98px) {
+    .deel-feature-arrow {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.speed-nav::-webkit-scrollbar { display: none; }
+.speed-nav .nav-link { color: #555; border-radius: 12px; padding: 10px 16px; transition: 0.3s; }
+.speed-nav .nav-link.active { color: #000; }
+#pills-payroll-tab.active { background-color: #dcf0ff; }
+#pills-hr-tab.active { background-color: #f5f0d8; }
+#pills-hire-tab.active { background-color: #fdf1d6; }
+
+
+.review-track::-webkit-scrollbar { display: none; }
+.review-btn {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.review-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.last-card{
+    background-color: black;
+    color: white;
+}
+
+svg {
+  color: grey; 
+  width: 55px;
+  height: 55px;
+}
+
+.sss{
+    border: none;
+    height: 1px !important;
+}
